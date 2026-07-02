@@ -1,0 +1,17 @@
+# Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
+# SPDX-License-Identifier: BSD-3-Clause-Clear
+
+#goal definition
+
+uint8 command
+uint8 type
+string description
+---
+#result definition
+
+bool completed_flag
+uint8 status
+---
+#feedback definition
+
+bool success
